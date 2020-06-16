@@ -8,7 +8,7 @@ const { createServer } = require("./app.js");
   PG 상점 키값
 */
 const option = {
-  port: 80,
+  port: 3000,
 };
 
 const www = async (config = {}) => {
